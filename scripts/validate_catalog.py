@@ -2,6 +2,7 @@
 import json
 import re
 import sys
+from urllib.parse import unquote, urlparse
 from pathlib import Path
 
 
@@ -117,25 +118,59 @@ if missing_from_catalog:
 if extra_in_catalog:
     fail(f"Catalog skills missing folders: {sorted(extra_in_catalog)}")
 
-image_pattern = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
-for markdown_path in [ROOT / "README.md", ROOT / "README.zh-CN.md"]:
-    for image_path in image_pattern.findall(read_text(markdown_path)):
-        if image_path.startswith(("http://", "https://", "#")):
+markdown_link_pattern = re.compile(r"(!?)\[[^\]]*\]\(([^)]+)\)")
+
+
+def markdown_target_path(markdown_path, raw_target):
+    target = raw_target.strip()
+    target = re.split(r"\s+(?=['\"])", target, maxsplit=1)[0]
+    if target.startswith("<") and target.endswith(">"):
+        target = target[1:-1]
+    if not target or target.startswith("#") or target.startswith("//"):
+        return None
+
+    parsed = urlparse(target)
+    if parsed.scheme:
+        return None
+
+    clean = unquote(target.split("#", 1)[0])
+    if not clean:
+        return None
+    if clean.startswith("/"):
+        return ROOT / clean.lstrip("/")
+    return (markdown_path.parent / clean).resolve()
+
+
+for markdown_path in ROOT.rglob("*.md"):
+    if ".git" in markdown_path.parts:
+        continue
+    text = read_text(markdown_path)
+    for is_image, target in markdown_link_pattern.findall(text):
+        local_path = markdown_target_path(markdown_path, target)
+        if local_path is None:
             continue
-        clean = image_path.split("#", 1)[0]
-        if not (ROOT / clean).is_file():
-            fail(f"Markdown image path does not exist in {markdown_path.name}: {image_path}")
+        if not local_path.exists():
+            link_type = "image" if is_image else "link"
+            fail(
+                f"Markdown {link_type} target does not exist in "
+                f"{markdown_path.relative_to(ROOT)}: {target}"
+            )
 
 private_patterns = [
     re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"),
     re.compile(r"AIza[0-9A-Za-z_-]{20,}"),
     re.compile(r"sk-[A-Za-z0-9_-]{20,}"),
+    re.compile(r"ghp_[A-Za-z0-9_]{20,}"),
+    re.compile(r"github_pat_[A-Za-z0-9_]{20,}"),
+    re.compile(r"xox[baprs]-[A-Za-z0-9-]{20,}"),
+    re.compile(r"AKIA[0-9A-Z]{16}"),
+    re.compile(r"-----BEGIN [A-Z ]*PRIVATE KEY-----"),
 ]
 
 for path in ROOT.rglob("*"):
     if ".git" in path.parts or not path.is_file():
         continue
-    if path.suffix.lower() not in {".md", ".json", ".yml", ".yaml", ".txt"}:
+    if path.suffix.lower() not in {".md", ".json", ".yml", ".yaml", ".txt", ".svg", ".py", ".sh"}:
         continue
     text = read_text(path)
     for pattern in private_patterns:

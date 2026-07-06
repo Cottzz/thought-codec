@@ -9,6 +9,8 @@ This folder contains the English documentation for ThoughtCodec.
 - [Protocols](protocols.md)
 - [Skill quality guide](skill-quality-guide.md)
 - [Publishing checklist](publishing-checklist.md)
+- [Publication audit](../publication-audit.md)
+- [v0.1.0 release notes](../release-notes/v0.1.0.md)
 
 ## Core Concepts
 

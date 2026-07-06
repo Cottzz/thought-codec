@@ -2,7 +2,7 @@
 
 All notable changes to ThoughtCodec should be documented here.
 
-## Unreleased
+## 0.1.0 - 2026-07-07
 
 - Named the project ThoughtCodec / 思维编解码.
 - Added bilingual README files.

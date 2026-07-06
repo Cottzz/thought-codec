@@ -13,6 +13,11 @@ required_files=(
   "CHANGELOG.md"
   "CODE_OF_CONDUCT.md"
   "SECURITY.md"
+  ".github/workflows/structure-check.yml"
+  ".github/pull_request_template.md"
+  ".github/ISSUE_TEMPLATE/config.yml"
+  ".github/ISSUE_TEMPLATE/skill_submission.yml"
+  ".github/ISSUE_TEMPLATE/improvement.yml"
   "assets/logo.svg"
   "assets/logo-mono.svg"
   "assets/banner.svg"
@@ -46,6 +51,8 @@ required_files=(
   "docs/zh-CN/skill-quality-guide.md"
   "docs/en/publishing-checklist.md"
   "docs/zh-CN/publishing-checklist.md"
+  "docs/publication-audit.md"
+  "docs/release-notes/v0.1.0.md"
 )
 
 echo "Checking required files..."
