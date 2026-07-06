@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+.cache/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Generated archives
+*.zip
+*.tar
+*.tar.gz

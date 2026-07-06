@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">ThoughtCodec Logo Route 06 - Processing Flow</title>
+  <desc id="desc">A flat geometric processing core with converging inputs and branching outputs.</desc>
+  <rect width="512" height="512" rx="112" fill="#0f172a"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M92 184h64l58 48" stroke="#94a3b8" stroke-width="30"/>
+    <path d="M92 256h112" stroke="#94a3b8" stroke-width="30"/>
+    <path d="M92 328h64l58-48" stroke="#94a3b8" stroke-width="30"/>
+    <path d="M306 232 364 184h56" stroke="#67e8f9" stroke-width="30"/>
+    <path d="M308 256h112" stroke="#67e8f9" stroke-width="30"/>
+    <path d="M306 280 364 328h56" stroke="#67e8f9" stroke-width="30"/>
+    <path d="m420 184 26 26m-26-26 26-26" stroke="#67e8f9" stroke-width="22"/>
+    <path d="m420 256 26 26m-26-26 26-26" stroke="#67e8f9" stroke-width="22"/>
+    <path d="m420 328 26 26m-26-26 26-26" stroke="#67e8f9" stroke-width="22"/>
+  </g>
+  <path fill="#0f172a" stroke="#e0f2fe" stroke-width="28" stroke-linejoin="round" d="M256 152 346 204v104l-90 52-90-52V204l90-52Z"/>
+  <path fill="none" stroke="#e0f2fe" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M256 152v208M166 204l180 104M346 204 166 308"/>
+  <path fill="#0f172a" stroke="#67e8f9" stroke-width="18" stroke-linejoin="round" d="M256 224 284 240v32l-28 16-28-16v-32l28-16Z"/>
+</svg>

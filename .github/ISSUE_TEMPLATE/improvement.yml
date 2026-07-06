@@ -1,0 +1,33 @@
+name: Improvement / 改进建议
+description: Suggest a correction or improvement / 建议修正或改进
+title: "[Improve] "
+labels:
+  - improvement
+body:
+  - type: textarea
+    id: current-problem
+    attributes:
+      label: Current problem / 当前问题
+      description: What is unclear, incorrect, missing, or hard to use? / 哪里不清晰、不正确、缺失或不好用？
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Proposed change / 建议修改
+      description: What would make it better? / 怎样改会更好？
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area / 影响范围
+      options:
+        - Skill content / Skill 内容
+        - Documentation / 文档
+        - Visual asset / 视觉资产
+        - Validation script / 校验脚本
+        - Catalog / 目录索引
+        - Other / 其他
+    validations:
+      required: false

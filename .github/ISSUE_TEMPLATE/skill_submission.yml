@@ -1,0 +1,41 @@
+name: Skill submission / 提交 Skill
+description: Suggest a new skill for ThoughtCodec / 为 ThoughtCodec 建议一个新 Skill
+title: "[Skill] "
+labels:
+  - skill
+body:
+  - type: input
+    id: skill-name
+    attributes:
+      label: Skill name / Skill 名称
+      description: Short human-readable name. / 简短、可读的名称。
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case / 使用场景
+      description: What problem does this skill solve? / 这个 Skill 解决什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Inputs / 输入
+      description: What information should the skill receive? / 这个 Skill 需要哪些输入？
+    validations:
+      required: false
+  - type: textarea
+    id: output
+    attributes:
+      label: Expected output / 预期输出
+      description: What should the skill produce? / 这个 Skill 应输出什么？
+    validations:
+      required: false
+  - type: textarea
+    id: safety
+    attributes:
+      label: Boundaries or safety notes / 边界或安全说明
+      description: What should this skill avoid doing? / 这个 Skill 不应该做什么？
+    validations:
+      required: false

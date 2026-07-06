@@ -1,0 +1,72 @@
+{
+  "project": "ThoughtCodec",
+  "stage": "logo-route-review",
+  "status": "working-logo-redrawn",
+  "generated_reference": "assets/brand/generated/chatgpt-logo-exploration-2026-07-06.png",
+  "routes": [
+    {
+      "id": "codec-core",
+      "label": "Codec Core",
+      "family": "symbol",
+      "file": "assets/brand/logo-routes/route-01-codec-core.svg",
+      "best_for": "A precise infrastructure-style identity.",
+      "watch_out": "May feel slightly abstract without the wordmark nearby."
+    },
+    {
+      "id": "bidirectional-flow",
+      "label": "Bidirectional Flow",
+      "family": "symbol",
+      "file": "assets/brand/logo-routes/route-02-bidirectional-flow.svg",
+      "best_for": "Communicating compression and decompression as an active loop.",
+      "watch_out": "Flow marks are common; needs disciplined execution to stay distinct."
+    },
+    {
+      "id": "modular-grid",
+      "label": "Modular Grid",
+      "family": "geometric",
+      "file": "assets/brand/logo-routes/route-03-modular-grid.svg",
+      "best_for": "A skill-library identity with strong small-size performance.",
+      "watch_out": "Less literal about codec, stronger about modular reusable skills."
+    },
+    {
+      "id": "signal-mark",
+      "label": "Signal Mark",
+      "family": "tech",
+      "file": "assets/brand/logo-routes/route-04-signal-mark.svg",
+      "best_for": "A protocol or agent-system identity.",
+      "watch_out": "Could feel like analytics if used without the name."
+    },
+    {
+      "id": "wordmark-first",
+      "label": "Wordmark First",
+      "family": "wordmark",
+      "file": "assets/brand/logo-routes/route-05-wordmark-first.svg",
+      "best_for": "GitHub README and documentation headers where the project name matters.",
+      "watch_out": "Needs a companion favicon mark for tiny sizes."
+    },
+    {
+      "id": "processing-flow",
+      "label": "Processing Flow",
+      "family": "symbol",
+      "file": "assets/brand/logo-routes/route-06-processing-flow.svg",
+      "best_for": "Expressing compression into a geometric core and decompression into outputs.",
+      "watch_out": "Needs careful simplification for very small favicon sizes."
+    },
+    {
+      "id": "negative-space-codec-aperture",
+      "label": "Negative-Space Codec Aperture",
+      "family": "symbol",
+      "file": "assets/logo.svg",
+      "best_for": "A durable GitHub repository logo, favicon, monochrome mark, README banner, and social preview system.",
+      "watch_out": "More abstract than the processing-flow route; should be paired with the ThoughtCodec wordmark in README contexts."
+    }
+  ],
+  "recommended_working_route": "negative-space-codec-aperture",
+  "final_assets": [
+    "assets/logo.svg",
+    "assets/logo-mono.svg",
+    "assets/banner.svg",
+    "assets/social-preview.svg",
+    "assets/social-preview.png"
+  ]
+}
