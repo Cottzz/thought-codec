@@ -15,7 +15,6 @@ ThoughtCodec is organized as a bilingual open-source skill library. Each skill h
 |   |-- logo-mono.svg
 |   |-- banner.svg
 |   |-- social-preview.svg
-|   |-- brand/
 |   `-- diagrams/
 |-- catalog/
 |   `-- skills.json
@@ -25,13 +24,11 @@ ThoughtCodec is organized as a bilingual open-source skill library. Each skill h
 |-- examples/
 |-- scripts/
 |-- skills/
-|   |-- _template/
 |   |-- architecture-scaffolding/
 |   |-- sop-instantiation/
 |   |-- rule-prompt-optimizer/
 |   |-- code-abstraction-encapsulation/
 |   `-- personal-methodology-engine/
-|-- tests/
 |-- README.md
 |-- README.zh-CN.md
 `-- LICENSE
@@ -43,12 +40,12 @@ ThoughtCodec is organized as a bilingual open-source skill library. Each skill h
 skills/<skill-id>/
 |-- SKILL.md
 |-- SKILL.zh-CN.md
-|-- assets/
-|-- examples/
-`-- references/
+`-- examples/
+    `-- basic-usage.md
 ```
 
 `SKILL.md` is the English primary version. `SKILL.zh-CN.md` is the Simplified Chinese version.
+Skill-specific assets and references can be added when a skill actually needs them.
 
 ## Naming Rules
 
@@ -78,8 +75,6 @@ Required project visuals:
 - `assets/logo-mono.svg`
 - `assets/banner.svg`
 - `assets/social-preview.svg`
-- `docs/brand/logo-brief.md`
-- `docs/brand/logo-review-board.md`
 - `assets/diagrams/architecture.svg`
 - `assets/diagrams/decompression-compression.svg`
 - `assets/diagrams/agentic-loop.svg`

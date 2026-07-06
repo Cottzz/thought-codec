@@ -14,8 +14,6 @@ This folder contains project-level visual assets.
 - `diagrams/architecture.svg`: architecture diagram / 系统架构图
 - `diagrams/decompression-compression.svg`: decompression and compression diagram / 解压与压缩流程图
 - `diagrams/agentic-loop.svg`: agentic loop diagram / 智能体闭环图
-- `brand/logo-routes/`: logo route candidates / Logo 方向候选
-- `brand/generated/`: generated visual references, not final assets / 生图参考，不是最终资产
 
 Skill-specific assets should live under the related skill folder.
 

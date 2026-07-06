@@ -65,8 +65,7 @@ ThoughtCodec 的公共基础包括：
 |   `-- zh-CN/           # 简体中文项目文档
 |-- examples/            # 跨 Skill 的工作流示例
 |-- scripts/             # 校验与维护脚本
-|-- skills/              # 每个 Skill 一个文件夹
-`-- tests/               # 后续测试与样例数据
+`-- skills/              # 每个 Skill 一个文件夹
 ```
 
 ## 快速开始
@@ -92,14 +91,13 @@ bash scripts/validate_structure.sh
 - [GitHub Social Preview](assets/social-preview.svg)
 - [可直接上传的 Social Preview PNG](assets/social-preview.png)
 - [单色 Logo](assets/logo-mono.svg)
-- [Logo 评审板](docs/brand/logo-review-board.md)
 - [系统架构图](assets/diagrams/architecture.svg)
 - [解压与压缩流程图](assets/diagrams/decompression-compression.svg)
 - [智能体闭环图](assets/diagrams/agentic-loop.svg)
 
 ## 状态
 
-ThoughtCodec 当前是初始公开发布候选版本。项目结构、首批 5 个 preview 状态 Skill、双语文档、示例、视觉资产和校验脚本已经就位。后续可以继续补充集成、测试和更多领域 Skill。
+ThoughtCodec 当前是初始公开预览版本。项目结构、首批 5 个 preview 状态 Skill、双语文档、示例、视觉资产和校验脚本已经就位。后续可以继续补充集成、测试和更多领域 Skill。
 
 ## 许可证
 

@@ -18,21 +18,22 @@ This folder contains the ThoughtCodec skill library.
 skills/<skill-id>/
 |-- SKILL.md
 |-- SKILL.zh-CN.md
-|-- assets/
-|-- examples/
-`-- references/
+`-- examples/
+    `-- basic-usage.md
 ```
 
 ## Add A Skill / 新增 Skill
 
-Copy the template:
+Create a new lowercase kebab-case folder, then add both language files and at least one example:
 
-复制模板：
+创建一个小写 kebab-case 文件夹，然后添加两个语言版本文件和至少一个示例：
 
-```bash
-cp -R skills/_template skills/<skill-id>
+```text
+skills/<skill-id>/SKILL.md
+skills/<skill-id>/SKILL.zh-CN.md
+skills/<skill-id>/examples/basic-usage.md
 ```
 
-Then update both language files and add the new skill to `catalog/skills.json`.
+Finally, add the new skill to `catalog/skills.json`.
 
-然后更新两个语言版本，并将新 Skill 加入 `catalog/skills.json`。
+最后，将新 Skill 加入 `catalog/skills.json`。

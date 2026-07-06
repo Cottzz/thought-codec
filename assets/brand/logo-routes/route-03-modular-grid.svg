@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">ThoughtCodec Logo Route 03 - Modular Grid</title>
-  <desc id="desc">A modular grid mark with four skill blocks converging around a central codec aperture.</desc>
-  <rect width="512" height="512" rx="112" fill="#0f172a"/>
-  <path fill="#f8fafc" d="M144 112h102v102H144c-18 0-32-14-32-32v-38c0-18 14-32 32-32Zm122 0h102c18 0 32 14 32 32v38c0 18-14 32-32 32H266V112ZM112 298c0-18 14-32 32-32h102v102H144c-18 0-32-14-32-32v-38Zm154-32h102c18 0 32 14 32 32v38c0 18-14 32-32 32H266V266Z"/>
-  <path fill="#22d3ee" d="M256 207 305 256 256 305 207 256l49-49Z"/>
-  <path fill="#0f172a" d="M256 232 280 256 256 280 232 256l24-24Z"/>
-</svg>

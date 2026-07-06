@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">ThoughtCodec Logo Route 01 - Codec Core</title>
-  <desc id="desc">A geometric core mark built from nested rounded squares and directional cuts.</desc>
-  <rect width="512" height="512" rx="112" fill="#0f172a"/>
-  <path fill="#f8fafc" fill-rule="evenodd" d="M158 118h196c22 0 40 18 40 40v196c0 22-18 40-40 40H158c-22 0-40-18-40-40V158c0-22 18-40 40-40Zm25 54c-6 0-11 5-11 11v146c0 6 5 11 11 11h146c6 0 11-5 11-11V183c0-6-5-11-11-11H183Zm54 43h38v38h38v38h-38v38h-38v-38h-38v-38h38v-38Z"/>
-  <path fill="#22d3ee" d="M117 256 71 210v92l46-46Zm278 0 46-46v92l-46-46Z"/>
-</svg>

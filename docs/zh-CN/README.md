@@ -8,9 +8,6 @@
 - [项目架构](project-architecture.md)
 - [协议](protocols.md)
 - [Skill 质量指南](skill-quality-guide.md)
-- [发布清单](publishing-checklist.md)
-- [发布审计](../publication-audit.md)
-- [v0.1.0 发布说明](../release-notes/v0.1.0.md)
 
 ## 核心概念
 

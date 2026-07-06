@@ -65,8 +65,7 @@ ThoughtCodec uses three shared building blocks:
 |   `-- zh-CN/           # Simplified Chinese project documentation
 |-- examples/            # Cross-skill workflow examples
 |-- scripts/             # Validation and maintenance scripts
-|-- skills/              # One folder per skill
-`-- tests/               # Future tests and fixtures
+`-- skills/              # One folder per skill
 ```
 
 ## Quick Start
@@ -92,14 +91,13 @@ This repository includes reusable open-source project visuals:
 - [Social preview](assets/social-preview.svg)
 - [Upload-ready social preview PNG](assets/social-preview.png)
 - [Monochrome logo](assets/logo-mono.svg)
-- [Logo review board](docs/brand/logo-review-board.md)
 - [Architecture diagram](assets/diagrams/architecture.svg)
 - [Decompression and compression diagram](assets/diagrams/decompression-compression.svg)
 - [Agentic loop diagram](assets/diagrams/agentic-loop.svg)
 
 ## Status
 
-ThoughtCodec is currently an initial public-release candidate. The structure, first five preview-status skills, bilingual documentation, examples, visual assets, and validation script are in place. Future work can add integrations, tests, and more domain-specific skills.
+ThoughtCodec is currently an initial public preview. The structure, first five preview-status skills, bilingual documentation, examples, visual assets, and validation script are in place. Future work can add integrations, tests, and more domain-specific skills.
 
 ## License
 

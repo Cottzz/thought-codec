@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">ThoughtCodec Logo Route 02 - Bidirectional Flow</title>
-  <desc id="desc">A minimal bidirectional loop mark representing compression and decompression.</desc>
-  <rect width="512" height="512" rx="112" fill="#0b1220"/>
-  <path d="M162 205c34-54 91-76 146-54 42 17 67 55 67 105 0 72-57 121-122 109-37-7-64-30-82-63" fill="none" stroke="#f8fafc" stroke-width="42" stroke-linecap="round"/>
-  <path d="M350 307c-34 54-91 76-146 54-42-17-67-55-67-105 0-72 57-121 122-109 37 7 64 30 82 63" fill="none" stroke="#38bdf8" stroke-width="42" stroke-linecap="round"/>
-  <path d="M338 155h79v79" fill="none" stroke="#f8fafc" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M174 357H95v-79" fill="none" stroke="#38bdf8" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
