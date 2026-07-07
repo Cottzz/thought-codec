@@ -10,6 +10,10 @@
 
 English version: [README.md](README.md).
 
+## SkillHub
+
+- [SkillHub 公开页](https://skillhub.cn/skills/thought-codec)：安装已发布的 `thought-codec` skill。
+
 ## 项目为什么存在
 
 大多数 AI 工作流仍然把模型当作一次性问答工具。ThoughtCodec 采用另一种视角：AI 协作是一套双向编解码系统。

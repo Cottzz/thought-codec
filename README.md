@@ -10,6 +10,10 @@
 
 中文说明请见 [README.zh-CN.md](README.zh-CN.md).
 
+## Marketplace
+
+- [SkillHub](https://skillhub.cn/skills/thought-codec) - install the published `thought-codec` skill.
+
 ## Why This Exists
 
 Most AI workflows still treat models as tools that answer isolated questions. ThoughtCodec treats AI collaboration as a two-way codec:
